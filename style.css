@@ -1,0 +1,139 @@
+/* Reset Browser Default Styles using universal * selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Whole page styles (everything is in <body> */
+body {
+  padding: 10px;
+  font-family: "Merriweather", Arial, Helvetica, sans-serif;
+}
+
+/* Styles for the <header> section */
+header {
+  background-color: #ddbade;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Styles for the <nav> section */
+nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+/* Styles for the <main> section */
+main {
+  padding: 30px;
+  background-color: rgb(56, 53, 53);
+}
+
+/* Styles for the <article>, <section> sections */
+/* article,
+section {
+  padding: 30px;
+  background-color: #777;
+} */
+
+/* id selector */
+#article-box {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 1000px;
+  padding: 30px;
+  background-color: #777;
+}
+
+/* id selector */
+#project-box {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 30px;
+  background-color: #777;
+  margin-left: 30px;
+  vertical-align: top;
+}
+
+#article-one-header {
+  margin-bottom: 20px;
+}
+
+#article-div {
+  padding: 25px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #c2deb1;
+  background-color: #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.image {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 32%;
+  height: 200px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #c2deb1;
+  background-color: #e6e6e6;
+  margin-right: 10px;
+}
+
+#image-text {
+  margin-top: 80px; /* without using `display: flex;` */
+}
+
+#project-div {
+  width: 350px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #c2deb1;
+  background-color: #e6e6e6;
+  margin-bottom: 20px;
+}
+
+#dates-div {
+  padding: 15px;
+  padding-bottom: 320px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #c2deb1;
+  background-color: #e6e6e6;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  line-height: 30px;
+}
+
+/* Styles for the <footer> section */
+footer {
+  margin-top: 30px;
+  height: 130px;
+  background-color: rgb(142, 234, 180);
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
